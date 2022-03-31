@@ -17,8 +17,6 @@ function EventDetailPage() {
 
   const { title, description, location, date, image } = event;
 
-  console.log(image);
-
   return (
     <Fragment>
       <EventSummary title={title} />
